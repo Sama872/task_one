@@ -1,0 +1,59 @@
+
+.container{
+  height: 80vh;
+}
+.imgoverlay {
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  width: 50%;
+}
+
+
+.imgoverlay img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px; /* Set border-radius on the image */
+  margin: auto;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: #1DADAD;
+  transition: .5s ease;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f1f1f1;
+  /* width: auto; */
+  height: 100%;
+  width: 100%;
+}
+
+.imgoverlay:hover .overlay {
+  opacity: 0.9;
+  cursor: pointer;
+}
+.line {
+  width: 80px;
+  height: 4px;
+  background-color:#2C3E50;
+  margin:10px;
+}
+
+.iconContainer {
+  display: flex;
+  align-items: center;
+}
+p {
+  font-weight: bold;
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: center;
+}

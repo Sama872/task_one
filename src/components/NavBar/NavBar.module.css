@@ -1,0 +1,31 @@
+
+  .fullnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2C3E50;
+    color: white;
+    
+  }
+  
+  .title {
+    font-size: 30px;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .navbarNav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 10px;
+    margin-left: auto;
+    list-style: none;
+    align-items: flex-end;
+    font-size: 18px;
+    font-weight: bold;
+   
+  }

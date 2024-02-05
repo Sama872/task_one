@@ -1,0 +1,28 @@
+.line {
+  width: 70px;
+  height: 4px;
+  background-color: #ffffff;
+  margin:10px;
+}
+
+.iconContainer {
+  display: flex;
+  align-items: center;
+}
+
+p {
+  font-weight: bold;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1ABC9C;
+  height: 80vh;
+  color: #ffffff;
+  flex-direction: column;
+}
+
